@@ -25,6 +25,7 @@ coverage/
 
 # Supabase local state
 .supabase/
+supabase/.temp/
 
 # OS / editor files
 .DS_Store
