@@ -1,0 +1,52 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+coverage/
+.vite/
+
+# Local environment files
+.env.local
+.env.*.local
+
+# Vercel
+.vercel/
+
+# Supabase local state
+.supabase/
+
+# OS / editor files
+.DS_Store
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+
+# Playwright / test artifacts
+playwright-report/
+test-results/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Project-specific assets/folders not meant for source control
+acrisure logo/

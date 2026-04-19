@@ -1,0 +1,14 @@
+{
+  "functions": {
+    "api/compare-quotes.ts": { "maxDuration": 300 }
+  },
+  "rewrites": [
+    { "source": "/((?!api/).*)", "destination": "/index.html" }
+  ],
+  "crons": [
+    {
+      "path": "/api/lapse-submissions",
+      "schedule": "0 2 * * *"
+    }
+  ]
+}
